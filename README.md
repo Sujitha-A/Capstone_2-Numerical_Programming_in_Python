@@ -108,17 +108,13 @@ The goal is to help app developers and marketers:
 ---
 
 ## 📁 Project Structure
-playstore-analysis/
-├── data/
-│   ├── apps.csv
-│   └── reviews.csv
-├── src/
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   └── sentiment_analysis.py
-├── main.py
-├── requirements.txt
-├── README.md
+playstore-analysis...  
+data  
+&emsp;-> apps.csv  
+&emsp;-> reviews.csv  
+playstore_analysis.py  
+requirements.txt  
+README.md
 
 ---
 
