@@ -110,8 +110,8 @@ The goal is to help app developers and marketers:
 ## 📁 Project Structure  
   
 data  
-&emsp;-> apps.csv  
-&emsp;-> reviews.csv  
+&emsp;-> Play Store Data.csv  
+&emsp;-> User Reviews.csv  
 playstore_eda.ipynb  
 playstore_analysis.py  
 requirements.txt  
