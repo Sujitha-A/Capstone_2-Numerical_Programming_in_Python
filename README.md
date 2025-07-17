@@ -107,11 +107,12 @@ The goal is to help app developers and marketers:
 
 ---
 
-## 📁 Project Structure
-playstore-analysis...  
+## 📁 Project Structure  
+  
 data  
 &emsp;-> apps.csv  
 &emsp;-> reviews.csv  
+playstore_eda.ipynb  
 playstore_analysis.py  
 requirements.txt  
 README.md
