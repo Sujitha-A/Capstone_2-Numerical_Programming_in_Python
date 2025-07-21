@@ -30,11 +30,14 @@ Contains metadata for each app:
 - Content Rating
 - Genres
 - Last Updated
+- Current Ver
+- Android Ver
 
 ### 2. `reviews.csv`
 Contains user reviews:
 - App name
 - Translated review text
+- Sentiment
 - Sentiment polarity (computed)
 - Sentiment label (Positive, Neutral, Negative)
 
@@ -44,7 +47,7 @@ Contains user reviews:
 
 The goal is to help app developers and marketers:
 - Identify features common in successful apps
-- Understand user sentiment and feedback trends
+- Understand user sentiment and rating trends
 - Optimize app design and pricing strategies
 - Benchmark performance across categories
 
@@ -64,8 +67,7 @@ The goal is to help app developers and marketers:
 - **Pandas** – Data manipulation
 - **NumPy** – Numerical operations
 - **Matplotlib & Seaborn** – Visualizations
-- **TextBlob** – Sentiment analysis
-- **WordCloud** – Text visualization
+- **DateTime** - Date and Time manipulations
 
 ---
 
@@ -76,7 +78,6 @@ The goal is to help app developers and marketers:
 - Price vs Rating scatter plot
 - Free vs Paid app rating comparison
 - Sentiment distribution from user reviews
-- Word cloud of review text
 
 ---
 
