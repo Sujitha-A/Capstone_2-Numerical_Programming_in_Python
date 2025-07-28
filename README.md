@@ -57,7 +57,6 @@ The goal is to help app developers and marketers:
 
 - Which app categories receive the highest ratings?
 - Do free apps perform better than paid ones?
-- What are the most common sentiments in user reviews?
 - How do installs, size, and price affect app success?
 
 ---
@@ -66,57 +65,54 @@ The goal is to help app developers and marketers:
 
 - **Pandas** – Data manipulation
 - **NumPy** – Numerical operations
-- **Matplotlib & Seaborn** – Visualizations
+- **Matplotlib, Seaborn & Plotly** – Visualizations
 - **DateTime** - Date and Time manipulations
 
 ---
 
 ## 📊 Visualizations Included
 
-- Ratings distribution histogram
-- Category-wise average rating bar chart
-- Price vs Rating scatter plot
-- Free vs Paid app rating comparison
-- Sentiment distribution from user reviews
-
+- Bar Chart - Number of apps released per year
+- Bar Chart - Apps per Category
+- Treemap - Total Installs and Average Rating per Category
+- Bar Chart - average number of installs per apps grouped by their 'Category'
+- Bar Chart - Average of Reviews per genre
+- Bar Chart - Installs vs Size
+- Bar Charts - Distribution of Apps by Type
+- Box Plot - Family Category Analysis
+- Scatter Plot - Rating vs Reviews vs Installs
+- Bar Chart - Installs vs content rating
+- Bar Charts - Sentiment per category
+- Correlation Heatmap of App Features
+- Pair Plot for Apps(Reviews, Rating and Installs)
+  
 ---
 
 ## 🧼 Production-Grade Features
 
-- Modular functions for data cleaning, EDA, and sentiment analysis
+- Modular functions for data cleaning and EDA
 - Exception handling for robust execution
-- Clean and readable code with comments and docstrings
-- Ready for deployment as a Python script or Streamlit app
-
----
-
-## 💡 Key Insights
-
-- Apps in categories like Productivity and Health & Fitness show high ratings but lower installs.
-- Free apps dominate in downloads but receive more mixed reviews.
-- Negative reviews often mention ads, bugs, and crashes.
-- Positive reviews highlight ease of use and helpful features.
-
+- Clean and readable code with comments
+  
 ---
 
 ## 📌 Recommendations
 
-- Focus on app stability and user experience to boost ratings.
-- Use sentiment trends to guide feature updates.
-- Benchmark against top-rated apps in similar categories.
-- Monitor review feedback regularly to stay competitive.
+- Prioritize app quality and user experience to achieve high ratings and positive sentiment.
+- Focus on high-engagement categories while being mindful of the competition.
+- Adopt a freemium model for most apps, but consider paid options for niche categories with high value.
+- Actively monitor and respond to user feedback to continuously improve your app and user satisfaction.
 
 ---
 
 ## 📁 Project Structure  
-  
+
+README.md     
 data  
 &emsp;-> Play Store Data.csv  
 &emsp;-> User Reviews.csv  
-playstore_eda.ipynb  
-playstore_analysis.py  
+playstore_eda.ipynb   
 requirements.txt  
-README.md
 
 ---
 
